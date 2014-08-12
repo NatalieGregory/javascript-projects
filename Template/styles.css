@@ -1,0 +1,23 @@
+
+.clicked {
+  background: black;
+  color: white;
+}
+
+
+
+.modal {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  transition: all 500ms ease;
+}
+
+.modal.active {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0; right:0; bottom: 0: left: 0;
+  background: rgba(000,000,000, 0.5);
+  transition: all 500ms ease;
+}
