@@ -1,12 +1,15 @@
 # JS 1
 
 ## Nested Tasks
-- Nest all tasks under task list index page.
-- Change default task list to hidden.
+- Change default task list to hide all tasks.
 - Let users click an 'open' icon to expand a given task list.
 - When the task list is expanded, change the icon to a 'close' icon.
 - Close all other tasks lists when one task list is opened.
 - Include a CSS transition to animate opening and closeing task lists.
+
+# Flash Message
+- Hide the default flash message after 5 seconds
+- Add a 'close button' to the flash message, so users can remove it before the default 5 seconds
 
 ## Date Picker
 - Include a date picker for time fields.
